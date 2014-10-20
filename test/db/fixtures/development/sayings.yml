@@ -1,0 +1,120 @@
+1:
+ id: 1
+ person_name: Dostoyevsky
+ sentence: With love one can live even without happiness.
+2:
+ id: 2
+ person_name: Dostoyevsky 
+ sentence: If there is no God, then I am God.
+3: 
+ id: 3
+ person_name: Dostoyevsky
+ sentence: Man is unhappy because he doesn’t know he’s happy. It’s only that.
+4:
+ id: 4
+ person_name: Dostoyevsky
+ sentence: The degree of civilization in a society can be judged by entering its prisons.
+5:
+ id: 5
+ person_name: Dostoyevsky
+ sentence: Where there is no love, there is no sense either.
+6:
+ id: 6
+ person_name: Shakespeare
+ sentence: To be, or not to be, that is the question.
+7:
+ id: 7
+ person_name: Shakespeare
+ sentence: You gods, will give us. Some faults to make us men.
+8:
+ id: 8
+ person_name: Shakespeare
+ sentence: There is nothing either good or bad, but thinking makes it so.
+9:
+ id: 9
+ person_name: Shakespeare
+ sentence: A fool thinks himself to be wise, but a wise man knows himself to be a fool.
+10:
+ id: 10
+ person_name: Shakespeare
+ sentence: Expectation is the root of all heartache.
+11:
+ id: 11
+ person_name: Goethe 
+ sentence: What is important in life is life, and not the result of life.
+12:
+ id: 12
+ person_name: Goethe 
+ sentence: Just trust yourself, then you will know how to live.
+13:
+ id: 13
+ person_name: Goethe 
+ sentence: Dream no small dreams for they have no power to move the hearts of men.
+14:
+ id: 14
+ person_name: Goethe 
+ sentence: He is the happiest man who can set the end of his life in connection with the beginning.
+15:
+ id: 15
+ person_name: Goethe 
+ sentence: He who moves not forward, goes backward.
+16:
+ id: 16
+ person_name: Tolstoy
+ sentence: The sole meaning of life is to serve humanity.
+17:
+ id: 17
+ person_name: Tolstoy
+ sentence: Everyone thinks of changing the world, but no one thinks of changing himself.
+18:
+ id: 18
+ person_name: Tolstoy
+ sentence: Which is worse? the wolf who cries before eating the lamb or the wolf who does not.
+19:
+ id: 19
+ person_name: Tolstoy
+ sentence: All happy families resemble one another; every unhappy family is unhappy in its own way.
+20:
+ id: 20
+ person_name: Tolstoy
+ sentence: If you want to be happy, be.
+21:
+ id: 21
+ person_name: Nietzsche
+ sentence: Perhaps I know best why it is man alone who laughs; he alone suffers so deeply that he had to invent laughter.
+22:
+ id: 22
+ person_name: Nietzsche
+ sentence: Talking much about oneself can also be a means to conceal oneself.
+23:
+ id: 23
+ person_name: Nietzsche
+ sentence: They punish you for all your virtues. They forgive you entirely ? your mistakes. 
+24:
+ id: 24
+ person_name: Nietzsche
+ sentence: Insanity in individuals is something rare ? but in groups, parties, nations, and epochs it is the rule.
+25:
+ id: 25
+ person_name: Nietzsche
+ sentence: In heaven all the interesting people are missing.
+26:
+ id: 26
+ person_name: Einstein
+ sentence: Anyone who has never made a mistake has never tried anything new.
+27:
+ id: 27
+ person_name: Einstein
+ sentence: If you can’t explain it to a six year old, you don’t understand it yourself.
+28:
+ id: 28
+ person_name: Einstein
+ sentence: Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.
+29:
+ id: 29
+ person_name: Einstein
+ sentence: In the middle of difficulty lies opportunity.
+30:
+ id: 30
+ person_name: Einstein
+ sentence: Life is like riding a bicycle. To keep your balance you must keep moving.

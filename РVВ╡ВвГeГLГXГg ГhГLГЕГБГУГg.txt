@@ -1,0 +1,52 @@
+課題１
+
+Ruby，Rails，mysql環境を準備して下さい。
+(Cドライブ下にRailsファイルを置き、その下にtestフォルダを置いてください。→C:\Rails\test)
+文字エンコードは全てutf8を選択して下さい。
+
+
+課題２
+
+以下の手順に従って、testフォルダ内のファイルを利用してデータベースにテーブルを作成し、データ投入を行って下さい。
+
+準備　コマンドプロンプトを立ち上げて、課題１で準備したtestフォルダに移動して下さい。
+①コマンド「C:\rails\test>rake db:create」を実行して下さい。
+(これでデータベースが作られます)
+②コマンド「C:\rails\test>rake db:migrate」を実行して下さい。
+(これで、①で作成したデータベース(test_development)に、テーブルsayingsが作成されます)
+③コマンド「C:\rails\test>rake db:import:development」を実行して下さい。
+(これでtestファイル内に既に準備してある、フィクスチャファイルをデータベースtest_developmentのテーブルsayingsにデータが投入されます)
+
+確認　準備が成功したか確認して下さい。
+④コマンド「C:\rails\test>mysql -u root」を実行して下さい。
+(MySQLにログインします)
+⑤コマンド「mysql> use test_development」を実行して下さい。
+(データベースtest_developmentが選択されます)
+⑥コマンド「mysql> desc sayings;」を実行して下さい。
+(sayingsテーブルのフィールド一覧が表示されます。テーブル作成に失敗している場合はエラーが出ます)
+⑦コマンド「mysql> select person_name, sentence from sayings;」を実行して下さい。
+(sayingsテーブル内に内にあるレコードの一覧が表示されます)
+
+後処理
+⑨コマンド「mysql> exit;」を実行して下さい。
+(MySQLからログアウトします。)
+
+その他
+文字化けする場合
+「mysql> set character set sjis;」を実行して下さい。
+(漢字やひらがなも表示できます)
+
+
+課題３
+課題１，２を行った結果、MySQL内にデータベースtest_developmentのテーブルsayingsが作成されています。
+saying内には
+person_name:作家
+sentence:作家の名言
+が入っています。
+
+railsを用いて、testフォルダ内に必要なrbファイル、rhtmlファイルを作成することにより、
+・検索ボックスに投入した単語から、名言sentenceのリストから検索し、ヒットした名言の発言者(作家)person_nameの一覧を表示される。
+・その表示された作家名にリンクが貼っれており、作家名クリックすると、先ほどの検索でヒットした名言のうち、その作家が発言した名言の一覧が表示される。
+の機能を満たす、webアプリケーションを作成して下さい。
+
+誤字脱字、その他質問が有りましたら、y.kano@dna-test.jpまでメールを下さい。
